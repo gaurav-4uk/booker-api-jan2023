@@ -18,7 +18,7 @@ public class CreateBookingTest3 {
 					+ "}")
 			.when()
 			.post("/auth");
-		System.out.println(res);
+		System.out.println(res.asPrettyString());
 	}
 
 }
